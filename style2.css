@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f5f5f5;
+	font-family: "Bree Serif";
+}
+
+h1 {
+	font-size: 50px;
+	justify-content: center;
+}
+
+.first {
+	display: flex;
+	flex-direction: row;
+}
+
+.second {
+	display: flex;
+	flex-direction: row;
+}
+
+.box {
+	height: 400px;
+	width: 250px;
+	position: relative;
+	margin: 10px;
+	border: 8px solid white;
+}
+
+.box__contents {
+	background-color: white;
+	position: absolute;
+	top: 15px;
+	width: 250px;
+
+	font-size: 20px;
+	font-weight: 900;
+	padding: 20px 1px 20px 0px;
+}
+
+.box__contents__name {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.first .box:first-child {
+	background-color: tomato;
+}
+.first .box:nth-child(2) {
+	background-color: teal;
+}
+.second .box:first-child {
+	background-color: burlywood;
+}
+.second .box:last-child {
+	background-color: thistle;
+}
