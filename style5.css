@@ -1,0 +1,194 @@
+body {
+	width: 500px;
+	height: 1200px;
+	margin-left: 15px;
+}
+
+/* Status bar */
+
+.status__background {
+	height: 90px;
+	width: 500px;
+	background-color: #ffce33;
+}
+
+.status__bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px 25px 15px;
+	font-size: 25px;
+}
+
+.search__bar {
+	display: flex;
+	flex-direction: row;
+}
+.search__window {
+	position: relative;
+	left: 30px;
+	bottom: 21px;
+	border-radius: 20px;
+	border: 5px solid white;
+	box-shadow: 0px 10px 10px rgb(151, 143, 143);
+	width: 420px;
+	height: 35px;
+}
+
+.fa-search {
+	position: relative;
+	bottom: 10px;
+	color: black;
+	opacity: 0.5;
+}
+
+header {
+	font-weight: bold;
+	margin-block: 8px;
+	position: relative;
+	left: 16px;
+	font-size: 20px;
+}
+
+/*  Book of the day  */
+
+.marginleft {
+	margin-left: 20px;
+}
+.third {
+	margin-top: 20px;
+}
+
+.third_title {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.third__contents {
+	display: flex;
+	justify-content: start;
+	line-height: 35px;
+}
+
+.third__img {
+	width: 150px;
+	height: 240px;
+	margin-right: 25px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.third__contents__text {
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.third__contents__text__two {
+	opacity: 0.7;
+	font-size: 20px;
+}
+.third__contents__text__star {
+	display: flex;
+	justify-content: start;
+	margin-right: 10px;
+}
+
+.fa-star {
+	margin-right: 10px;
+	font-size: 20px;
+	color: #ffce33;
+	margin-top: 15px;
+}
+
+.third__contents__text__box {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	font-size: 15px;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+
+.third__contents__text__box__fst {
+	background-color: #f3f3f3;
+	padding: 2px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.third__contents__text__box__sec {
+	background-color: #f3f3f3;
+	padding: 2px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.third__contents__text__icon {
+	display: flex;
+	margin-top: 20px;
+}
+
+.third__contents__text__icon__one {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #ffce33;
+	margin-right: 4px;
+}
+.fa-bookmark {
+	margin-left: 15px;
+}
+.third__contents__text__icon__two {
+	font-size: 17px;
+	font-weight: lighter;
+	background-color: #242121;
+	color: white;
+	padding: 6px 35px;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+
+/* Top adventures*/
+.fourth {
+	display: flex;
+	justify-content: flex-start;
+	overflow-x: scroll;
+}
+
+.fourth__row {
+	display: flex;
+	flex-direction: column;
+}
+
+.fourth__img {
+	width: 110px;
+	height: 160px;
+	margin-right: 25px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.fourth__star {
+	font-size: 8px;
+	margin: 21px 0px 15px 8px;
+}
+
+/* authors */
+
+.author {
+	width: 180px;
+	height: 240px;
+	margin-right: 25px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.authors__text {
+	line-height: 35px;
+}
+
+.authors__text__two {
+	margin-top: 30px;
+	opacity: 0.4;
+}
