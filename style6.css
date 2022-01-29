@@ -249,4 +249,14 @@ body {
 .second-play-icon {
 	display: flex;
 	justify-content: space-evenly;
+	font-size: 18px;
+	position: relative;
+	bottom: -130px;
+	color: rgb(92, 68, 68);
+}
+
+.fa-play-circle {
+	position: relative;
+	bottom: 15px;
+	font-size: 50px;
 }
